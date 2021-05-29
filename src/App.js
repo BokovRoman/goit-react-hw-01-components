@@ -1,6 +1,8 @@
 import React from 'react';
-import Profile from './components/Profile';
+import Profile from './components/Profile/Profile';
+import Statistics from './components/Statistics/Statistics';
 import profiles from './data/user.json';
+import statisticals from './data/statisticalData.json';
 // console.log(profiles);
 
 const App = () => {
@@ -16,6 +18,10 @@ const App = () => {
         views={profiles.stats.views}
         likes={profiles.stats.likes}
       />
+      <Statistics
+        title={'Upload stats'}
+        stats={statisticals}
+      /> 
     </div>
   );
 };
