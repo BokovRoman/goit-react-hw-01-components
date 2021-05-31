@@ -31,7 +31,7 @@ const App = () => {
         friends={friends}
       />
       <TransactionHistory
-        items={transactions}  
+        items123={transactions}  
       />
     </div>
   );
