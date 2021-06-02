@@ -7,7 +7,7 @@ import styles from './Profile.module.css';
 const Profile = (props) => {
     return (
         <div className={styles.profile}>
-            <div class="description">
+            <div className={styles.description}>
             <img
                     src={props.avatar}
                     alt="Аватар пользователя"
