@@ -23,7 +23,7 @@ const App = () => {
         likes={profiles.stats.likes}
       />
       <Statistics
-        title={'Upload stats'}
+        title='Upload stats'
         stats={statisticals}
         
       />
